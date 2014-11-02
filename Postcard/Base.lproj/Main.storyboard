@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="248" width="270" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nothing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYt-hz-3Vr">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="154" width="145" height="34"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="pWF-dy-bcs"/>
                                 <exclude reference="CjQ-db-YS4"/>
                                 <exclude reference="f0b-2W-nab"/>
+                                <exclude reference="eYt-hz-3Vr"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="pWF-dy-bcs"/>
                                 <include reference="CjQ-db-YS4"/>
                                 <include reference="f0b-2W-nab"/>
+                                <include reference="eYt-hz-3Vr"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="pWF-dy-bcs" id="CQh-2N-kRB"/>
                         <outlet property="enterNameTextField" destination="f0b-2W-nab" id="lH6-yR-p2T"/>
                         <outlet property="messageLabel" destination="9hh-jD-Z4D" id="FCj-hI-rwW"/>
+                        <outlet property="nameLabel" destination="eYt-hz-3Vr" id="TmZ-it-V69"/>
                         <outlet property="sendMailButton" destination="CjQ-db-YS4" id="bpH-P0-OF7"/>
                     </connections>
                 </viewController>
